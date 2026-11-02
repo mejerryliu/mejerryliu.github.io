@@ -20,7 +20,7 @@ window.PORTFOLIO = {
       stages: ["Find", "Define", "Build", "Ship"],
       title: "I find a user's problem, define what to build, then build and ship it.",
       lede: "University of Tokyo undergraduate, graduating in 2028.",
-      primary: "View projects",
+      primary: "View my projects",
       secondary: "Download résumé"
     },
     work: {
