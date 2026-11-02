@@ -1,0 +1,16 @@
+# Web archives: please do not capture this site
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: archive.org_bot
+Disallow: /
+
+User-agent: Internet Archive
+Disallow: /
+
+User-agent: Wayback Machine
+Disallow: /
+
+# Search engines and everyone else
+User-agent: *
+Allow: /
