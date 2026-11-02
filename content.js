@@ -11,7 +11,7 @@ window.PORTFOLIO = {
   images: ["", "", ""],
 
   en: {
-    pageTitle: "D. Liu — Product / Project Manager",
+    pageTitle: "D. Liu — Profile",
     name: "D. Liu",
     nav: { work: "Projects", approach: "Approach", experience: "Experience" },
     hero: {
@@ -65,7 +65,7 @@ window.PORTFOLIO = {
   },
 
   ja: {
-    pageTitle: "D. Liu — プロダクト / プロジェクトマネージャー",
+    pageTitle: "D. Liu — プロフィール",
     name: "D. Liu",
     nav: { work: "実績", approach: "進め方", experience: "経歴" },
     hero: {
