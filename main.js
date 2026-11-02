@@ -54,6 +54,12 @@
       list.appendChild(el("dd", "", item[key]));
     });
     body.appendChild(list);
+    if (item.url) {
+      var visit = link(labels.visit, item.url, "button visit");
+      visit.target = "_blank";
+      visit.rel = "noopener";
+      body.appendChild(visit);
+    }
     article.appendChild(body);
     return article;
   }

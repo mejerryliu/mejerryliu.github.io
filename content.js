@@ -1,6 +1,6 @@
 // All page text lives here. Any string starting with "[" is a placeholder and is
 // highlighted on the page until it is replaced with real content.
-// A project field left as "" is not shown.
+// A project field left as "" is not shown. A project's url adds a link to the live site.
 
 window.PORTFOLIO = {
   links: {
@@ -24,7 +24,7 @@ window.PORTFOLIO = {
     },
     work: {
       title: "Selected projects",
-      labels: { role: "My role", decisions: "Key decisions", result: "Result" },
+      labels: { role: "My role", decisions: "Key decisions", result: "Result", visit: "Visit site" },
       items: [
         {
           title: "AI anime review and supervision toolchain",
@@ -40,7 +40,8 @@ window.PORTFOLIO = {
           summary: "A web service for content creators who get many comments but cannot see how fans truly feel. It gathers social media comments, uses an LLM to classify the emotion in each, and produces a visual feedback report.",
           role: "Designed the service and its features, built it in Python, and deployed it myself on AWS EC2, with Cloudflare for traffic management.",
           decisions: "Started from the creator's pain rather than the technology. Kept the service stable as traffic grew, using a reverse proxy, rate limiting and log monitoring.",
-          result: "Won the Business Excellence Award."
+          result: "Won the Business Excellence Award.",
+          url: "https://www.i-wanna.ai"
         }
       ]
     },
@@ -78,7 +79,7 @@ window.PORTFOLIO = {
     },
     work: {
       title: "主なプロジェクト",
-      labels: { role: "担当", decisions: "主な判断", result: "成果" },
+      labels: { role: "担当", decisions: "主な判断", result: "成果", visit: "サイトを見る" },
       items: [
         {
           title: "AIアニメ審査・監修ツールチェーン",
@@ -94,7 +95,8 @@ window.PORTFOLIO = {
           summary: "多くのコメントを受け取りながらも、ファンの本当の気持ちが見えないコンテンツクリエイター向けのWebサービスです。SNSのコメントを集め、LLMで一件ごとの感情を分類し、視覚的なフィードバックレポートを作成します。",
           role: "サービスと機能を設計し、Pythonで開発しました。AWS EC2へのデプロイも自ら行い、トラフィック管理にはCloudflareを使用しました。",
           decisions: "技術からではなく、クリエイターの悩みから出発しました。リバースプロキシ、レート制限、ログ監視により、トラフィックが増えてもサービスを安定させました。",
-          result: "Business Excellence Award を受賞しました。"
+          result: "Business Excellence Award を受賞しました。",
+          url: "https://www.i-wanna.ai"
         }
       ]
     },

@@ -216,6 +216,8 @@ h2 {
 .summary { max-width: 34em; margin-bottom: 28px; font-size: 20px; line-height: 1.6; }
 dl { display: grid; grid-template-columns: 8em minmax(0, 36em); gap: 14px 16px; align-items: baseline; }
 dt { font-family: var(--mono); font-size: 14px; font-weight: 500; }
+.visit { margin-top: 28px; }
+.visit::after { content: " ↗"; white-space: pre; }
 
 /* Approach */
 .steps { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); counter-reset: step; }
