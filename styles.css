@@ -32,7 +32,7 @@ h1:lang(ja), h3:lang(ja) { font-feature-settings: "palt"; }
 
 h1, h2, h3, p, dl, dd, ol, ul { margin: 0; padding: 0; }
 h1, h3 { text-wrap: balance; }
-.hero, .dark, footer { -webkit-font-smoothing: antialiased; }
+.dark, footer { -webkit-font-smoothing: antialiased; }
 ol, ul { list-style: none; }
 a { color: inherit; }
 img { display: block; width: 100%; height: auto; }
@@ -122,8 +122,8 @@ a:focus-visible, button:focus-visible {
   min-height: 100svh;
   padding: 72px var(--gutter) var(--gutter);
   overflow: hidden;
-  background: var(--ink);
-  color: #fff;
+  background: var(--paper);
+  color: var(--ink);
 }
 
 .stack {
@@ -135,9 +135,9 @@ a:focus-visible, button:focus-visible {
 }
 :lang(ja) .stack { font-size: min(17svh, 13vw); font-weight: 900; line-height: 1.16; }
 .stack span { display: block; will-change: transform; }
-.stack span:nth-child(even) { color: transparent; -webkit-text-stroke: 2px #fff; }
+.stack span:nth-child(even) { color: transparent; -webkit-text-stroke: 2px var(--ink); }
 /* Kanji strokes overlap, so fill over the outline to hide the inner contours */
-:lang(ja) .stack span:nth-child(even) { color: var(--ink); -webkit-text-stroke-width: 4px; paint-order: stroke fill; }
+:lang(ja) .stack span:nth-child(even) { color: var(--paper); -webkit-text-stroke-width: 4px; paint-order: stroke fill; }
 
 .eyebrow { margin-bottom: 18px; font-family: var(--mono); font-size: 14px; line-height: 1.6; }
 h1 { font-size: clamp(26px, 2.7vw, 40px); font-weight: 700; line-height: 1.3; }
@@ -150,15 +150,15 @@ h1 { font-size: clamp(26px, 2.7vw, 40px); font-weight: 700; line-height: 1.3; }
   align-items: center;
   min-height: 48px;
   padding: 8px 22px;
-  background: #fff;
-  color: var(--ink);
+  background: var(--ink);
+  color: var(--paper);
   font-family: var(--mono);
   font-weight: 500;
   text-decoration: none;
 }
 .hero .button:first-child::after { content: " ↓"; white-space: pre; }
 .button:hover { background: var(--gray); color: var(--ink); }
-.button.quiet { box-shadow: inset 0 0 0 2px #fff; background: transparent; color: #fff; }
+.button.quiet { box-shadow: inset 0 0 0 2px var(--ink); background: transparent; color: var(--ink); }
 
 /* Panels: a vertical title rail beside the content */
 .panel {
