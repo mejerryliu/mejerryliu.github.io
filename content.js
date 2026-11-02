@@ -1,6 +1,7 @@
 // All page text lives here. Any string starting with "[" is a placeholder and is
 // highlighted on the page until it is replaced with real content.
-// A project field left as "" is not shown. A project's url adds a link to the live site.
+// A project field left as "" is not shown. A project's url adds a link to the live site;
+// urlLabel replaces the default button text.
 
 window.PORTFOLIO = {
   links: {
@@ -32,7 +33,9 @@ window.PORTFOLIO = {
           summary: "An internal AI toolchain that helps review and supervise anime production work, at an AI startup founded by University of Tokyo graduates.",
           role: "Product Engineer Intern. I gathered feature requests, wrote requirements, planned the product roadmap, improved features, and designed the frontend and backend.",
           decisions: "Built features myself to judge scope realistically.",
-          result: ""
+          result: "",
+          url: "https://ai-mage.jp",
+          urlLabel: "Company site"
         },
         {
           title: "LLM comment analyzer",
@@ -87,7 +90,9 @@ window.PORTFOLIO = {
           summary: "東京大学出身者が創業したAIスタートアップで開発した、アニメ制作の審査と監修を支援する社内向けAIツールチェーンです。",
           role: "プロダクトエンジニアインターンとして、機能要望の収集、要件定義、ロードマップの策定、機能改善、フロントエンドとバックエンドの設計を担当しました。",
           decisions: "開発範囲を現実的に見極めるため、自ら機能を実装しました。",
-          result: ""
+          result: "",
+          url: "https://ai-mage.jp",
+          urlLabel: "会社サイトを見る"
         },
         {
           title: "LLMコメント分析サービス",

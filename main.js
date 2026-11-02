@@ -55,7 +55,7 @@
     });
     body.appendChild(list);
     if (item.url) {
-      var visit = link(labels.visit, item.url, "button visit");
+      var visit = link(item.urlLabel || labels.visit, item.url, "button visit");
       visit.target = "_blank";
       visit.rel = "noopener";
       body.appendChild(visit);
