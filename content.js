@@ -1,7 +1,7 @@
 // All page text lives here. Any string starting with "[" is a placeholder and is
 // highlighted on the page until it is replaced with real content.
 // A project field left as "" is not shown. A project's url adds a link to the live site;
-// urlLabel replaces the default button text.
+// urlLabel replaces the default button text. An experience item's url links its org name.
 
 window.PORTFOLIO = {
   links: {
@@ -62,7 +62,7 @@ window.PORTFOLIO = {
       items: [
         { role: "Product Engineer Intern", org: "AI Mage", dates: "Aug–Nov 2025", text: "Requirements, roadmap, feature improvement, and frontend and backend design for an AI anime review toolchain." },
         { role: "Business Assistant", org: "Tianwen KADOKAWA Animation & Comics", dates: "Jan–Feb 2025", text: "Built a Python AI demo and presented its business uses to staff." },
-        { role: "Vice President", org: "Teikakai, University of Tokyo", dates: "Current", text: "Run a student Minecraft server and build its Java plugins and a Python Discord bot." }
+        { role: "Vice President", org: "Teikakai, University of Tokyo", dates: "Current", text: "Run a student Minecraft server and build its Java plugins and a Python Discord bot.", url: "https://www.teikakai.com" }
       ]
     },
     footer: "© 2026 D. Liu"
@@ -119,7 +119,7 @@ window.PORTFOLIO = {
       items: [
         { role: "プロダクトエンジニアインターン", org: "AI Mage", dates: "2025年8月〜11月", text: "AIアニメ審査ツールチェーンの要件定義、ロードマップ策定、機能改善、フロントエンドとバックエンドの設計。" },
         { role: "ビジネスアシスタント", org: "Tianwen KADOKAWA Animation & Comics", dates: "2025年1月〜2月", text: "PythonでAIデモを作成し、社員向けにビジネス活用法を発表。" },
-        { role: "副代表", org: "Teikakai（東京大学）", dates: "現在", text: "学生向けMinecraftサーバーの運営、Javaプラグインと Python製Discordボットの開発。" }
+        { role: "副代表", org: "東京大学棣華会", dates: "現在", text: "学生向けMinecraftサーバーの運営、Javaプラグインと Python製Discordボットの開発。", url: "https://www.teikakai.com" }
       ]
     },
     footer: "© 2026 D. Liu"

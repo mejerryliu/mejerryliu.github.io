@@ -108,7 +108,14 @@
       var detail = el("div");
       var heading = el("h3");
       heading.appendChild(el("span", "", job.role));
-      heading.appendChild(el("span", "org", job.org));
+      if (job.url) {
+        var org = link(job.org, job.url, "org org-link");
+        org.target = "_blank";
+        org.rel = "noopener";
+        heading.appendChild(org);
+      } else {
+        heading.appendChild(el("span", "org", job.org));
+      }
       detail.appendChild(heading);
       detail.appendChild(el("p", "", job.text));
       row.appendChild(detail);

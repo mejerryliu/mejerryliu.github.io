@@ -264,6 +264,9 @@ dt { font-family: var(--mono); font-size: 14px; font-weight: 500; }
 .job p:not(.dates) { max-width: 36em; }
 .job h3 { font-size: 23px; line-height: 1.35; }
 .org { display: block; margin-bottom: 4px; font-size: 17px; font-weight: 500; }
+.org-link { width: fit-content; text-decoration: underline; text-underline-offset: 4px; }
+.org-link::after { content: " ↗"; white-space: pre; }
+.org-link:hover { text-decoration-thickness: 2px; }
 footer {
   padding: 18px var(--gutter);
   background: var(--ink);
